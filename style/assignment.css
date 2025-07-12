@@ -3,24 +3,22 @@
   padding: 0;
   box-sizing: border-box;
 }
-/* font design */
-
-.open-sans-uniquifier{
-  font-family: "Raleway", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: weight;
-  font-style: normal;
+body{
+    background-color: 	#F4F6FB;
 }
+
+
 /* header img */
 .header{
     background-image: url(images/Hero-bg.png);
-    padding-top: 50px;
-    padding-bottom: 1px;
+    padding-top: 20px;
+    padding-bottom: .02px;
 }
-/* shared style */
+/* button style */
 .btn-primary{
     padding: 12px 24px;
     background-color: #4E47FF;
+    font-family: "Raleway", sans-serif;
     font-size: 17px;
     color: #FFFFFF;
     border: none;
@@ -31,12 +29,24 @@
 .btn-2{
     padding: 12px 24px;
     background-color: #4E47FF;
+    font-family: "Raleway", sans-serif;
     font-size: 17px;
     color: #FFFFFF;
     border: none;
     border-radius: 5px;
     font-weight: bold;
-    cursor: pointer;
+    cursor: pointer;   
+}
+.section-btn{
+    padding: 12px 24px;
+    background-color: #4E47FF;
+    font-family: "Raleway", sans-serif;
+    font-size: 17px;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer; 
 }
 /* nav style */
 nav ul{
@@ -49,7 +59,8 @@ nav ul li{
 }
 .logo{
     font-size: 34px;
-    font-weight: bold;
+    font-family: "Inter", sans-serif;
+    font-weight: 750;
     color: #4E47FF;
 }
 nav li a{
@@ -66,8 +77,40 @@ nav li a{
 }
 .banner h1{
     text-align: center; 
+    font-family: "Raleway", sans-serif;
     font-size: 65px;
     font-weight: bold;
     color: #252432;
 
 }
+/* section style */
+.section-1{
+    display: flex;
+    justify-content: center;
+    gap: 220px;
+    padding-top: 116px;
+    
+}
+.left-side{
+    padding-top: 70px;
+}
+.section-title{
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    color: #252432;
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+.section-sub-title{
+    font-family: "Raleway", sans-serif;
+    font-weight: normal;
+    font-size: 24px;
+    color: #2524328a;
+    margin-bottom: 15px;
+}
+.section-img{
+    width: 403px;
+    height: 328px;
+    border-radius: 48px;
+}
+    
