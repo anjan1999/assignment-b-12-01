@@ -16,35 +16,41 @@ body{
 }
 /* button style */
 .btn-primary{
+    width: 132px;
+    height: 48px;
     padding: 12px 24px;
     background-color: #4E47FF;
     font-family: "Raleway", sans-serif;
     font-size: 17px;
     color: #FFFFFF;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     font-weight: bold;
     cursor: pointer;
 }
 .btn-2{
+    width: 174px;
+    height: 48px;
     padding: 12px 24px;
     background-color: #4E47FF;
     font-family: "Raleway", sans-serif;
     font-size: 17px;
     color: #FFFFFF;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     font-weight: bold;
     cursor: pointer;   
 }
 .section-btn{
+    width: 229px;
+    height: 48px;
     padding: 12px 24px;
     background-color: #4E47FF;
     font-family: "Raleway", sans-serif;
     font-size: 17px;
     color: #FFFFFF;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     font-weight: bold;
     cursor: pointer; 
 }
@@ -60,7 +66,7 @@ nav ul li{
 .logo{
     font-size: 34px;
     font-family: "Inter", sans-serif;
-    font-weight: 750;
+    font-weight: 900;
     color: #4E47FF;
 }
 nav li a{
@@ -198,4 +204,153 @@ nav li a{
 .propic{
     border-radius: 50%;
 }
+/* section 3 style */
+.section3{
+    width: 1140px;
+    height: 697px;
+    justify-items: center;
+    background-color: #ffffffc9;
+    border-radius: 15px;
+    padding: 71px 150px 71px 150px;
+    margin-top: 137px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.section3-title{
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+.section3-sub-title{
+    color: rgba(0, 0, 0, 0.514);
+    margin-bottom: 20px;
+}
+.section3-img{
+    border-radius: 48px;
+    margin-top: 20px;
+    margin-bottom: 71px;
+}
+/* section 4 +  form style  */
+.section-4{
+    display: flex;
+    justify-content: center;
+    gap: 116px;
+    padding: 71px;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.section4-title{
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    font-size: 97px;
+    margin-top: 200px;
+}
+.contact-form {
+    padding: 40px;
+    border-radius: 10px;
+    width: 400px;
+    margin-top: 71px;
+}
+ .contact-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;  
+    font-weight: 400;
+    color: #333;
+}
+
+.contact-form input{
+    width: 500px;
+    height: 70px;
+    padding: 20px 271px 20px 32px;
+    border: 1px solid wheat;
+    border-radius: 10px;
+    font-family: "Raleway", sans-serif;
+    color: #482d2d97;
+    font-size: 20px;
+    outline: none;
+    box-sizing: border-box;
+    margin-bottom: 19px;
+}
+
+.contact-form textarea {
+    resize: vertical;
+    width: 500px;
+    height: 135px;
+    padding: 20px 257px 85px 32px;
+    border: 1px solid wheat;
+    border-radius: 10px;
+    font-family: "Raleway", sans-serif;
+    color: #482d2d97;
+    font-size: 20px;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.btn4{
+    width: 500px;
+    height: 62px;
+    padding: auto;
+    background-color: #4E47FF;
+    font-family: "Raleway", sans-serif;
+    font-size: 17px;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 19px;     
+}
+/* footer style */
+.finally{
+    height: 428px;
+    justify-items: center;
+    padding: 3px;
+    background-color: rgba(129, 224, 5, 0.144);
     
+}
+.footer-list{
+    list-style: none;
+    display: flex;
+    gap: 48px;
+}
+.footer-title{
+    font-family: "Inter", sans-serif;
+    font-weight: 900;
+    font-size: 100px;
+    color: #4E47FF;
+    margin-top: 104px;
+    margin-bottom: 8px;
+}
+.footer-subtitle{
+    font-size: 20px;
+    font-weight: 500;
+    color: #8987A1;
+}
+.list-item{
+    font-size: 21px;
+    font-weight: 450;
+    color: #8987A1;
+    margin-top: 20px;
+}
+/* last touch button hoover */
+.btn4:hover {
+  background-color: #04AA6D;
+  color: white;
+}
+.section-btn:hover {
+  background-color: #04AA6D;
+  color: white;
+}
+.btn-2:hover {
+  background-color: #04AA6D;
+  color: white;
+}
+.btn-primary:hover {
+  background-color: #04AA6D;
+  color: white;
+}
