@@ -113,4 +113,89 @@ nav li a{
     height: 328px;
     border-radius: 48px;
 }
+/* productive user section */
+.user-section {
+  background-color: #ece9fd;
+  text-align: center;
+  padding: 50px 20px;
+  border-radius: 24px;
+  margin: 100px auto;
+  max-width: 1140px;
+}
+
+.user-section h2 {
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;  
+  color: #252432;
+  font-size: 38px;
+}
+
+.user-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 60px; 
+}
+
+.user-box h3 {
+  font-family: "Inter", sans-serif;  
+  color: #4E47FF;
+  font-size: 70px;
+  margin: 0;
+}
+
+.user-box p {
+  font-family: "Inter", sans-serif;   
+  color: #00000083;
+  margin-top: 5px;
+  font-size: 20px;
+}
+/* user section 2 */
+.user-section-2{
+    align-items: center;
+}
+.user-container2{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.user-title{
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    color: #252432;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 137px;
+    margin-bottom: 50px;
+}
+.card{
+    width: 370px;
+    height: 244px;
+    background-color: #ffffffc9;
+    border-radius: 14px;
+    padding: 24px 24px 24px;
+}
+.title{
+    margin-top: 24px;
+    margin-bottom: 8px;
+}
+.card-subtitle{
+    font-weight: normal;
+    color: rgba(0, 0, 0, 0.56);
+    margin-bottom: 24px;
+}
+.pro-pic-with-name{
+    display: flex;
+    gap: 24px;
+}
+.nameh3{
+    color: rgba(0, 0, 0, 0.514);
+}
+.date{
+    color: rgba(0, 0, 0, 0.434);
+}
+.propic{
+    border-radius: 50%;
+}
     
